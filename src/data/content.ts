@@ -148,31 +148,31 @@ export const serviceAreas = [
 export const testimonials = [
   {
     name: 'Stephen Wise',
-    location: 'Concord, ON',
+    location: 'Calgary, AB',
     rating: 5,
     text: 'I am so happy with our new door, we get compliments all the time. Dennis was amazing, quoted us the best price, had it made and installed in the timeline he said it would. The installer did a great job and cleaned the worksite perfectly, even in the cold of winter. I would definitely use them again.',
   },
   {
     name: 'Kathryn Mulberry',
-    location: 'Kelowna, BC',
+    location: 'Airdrie, AB',
     rating: 5,
     text: 'We recently had 7 windows replaced with HTR and we are very pleased with dealing with Vadim the sales rep – absolutely a pleasure to deal with. The installers did such an amazing job inside and out! Highly recommend!',
   },
   {
     name: 'Mike Stern',
-    location: 'Halifax, NS',
+    location: 'Okotoks, AB',
     rating: 5,
     text: "I got several quotes on replacing 10 windows. I chose HTR because they had the best quote and don't use high pressure sales. They came and installed all the windows in one day. Great guys, professional installers. They cleaned up everything before they left. HTR was 5 stars!",
   },
   {
     name: 'Wendy',
-    location: 'Vernon, BC',
+    location: 'Cochrane, AB',
     rating: 5,
     text: 'All I can say is WOW! From the estimate to the final installation – outstanding! The windows are so efficient we are blown away. You can\'t hear anything from outside. We have tried other window companies and the quality of these are far superior. HIGHLY RECOMMEND!!!',
   },
   {
     name: 'Sean',
-    location: 'Toronto, ON',
+    location: 'Lethbridge, AB',
     rating: 5,
     text: 'Our family is very satisfied with our experience with HTR. From the quote to customer service to the installers, they were all incredibly efficient and supportive. We no longer have cold drafts coming in through our windows, and our energy bills have been reduced.',
   },
