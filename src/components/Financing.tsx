@@ -74,7 +74,7 @@ export default function Financing() {
             Claim Your <span className="text-orange-400">40% OFF</span> + Free Financing Consultation
           </h3>
           <p className="text-blue-200 text-base mb-8 max-w-xl mx-auto">
-            Fill out the form below and our Alberta specialist will contact you within 24 hours to
+            Fill out the form below and our specialist will contact you to
             lock in your discount and find the best payment plan for your budget.
           </p>
           <a
