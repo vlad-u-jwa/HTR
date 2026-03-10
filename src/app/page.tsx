@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import TrustBar from '@/components/TrustBar'
 import VideoSection from '@/components/VideoSection'
 import Products from '@/components/Products'
+import Gallery from '@/components/Gallery'
 import WhyUs from '@/components/WhyUs'
 import ServiceAreas from '@/components/ServiceAreas'
 import Testimonials from '@/components/Testimonials'
@@ -20,6 +21,7 @@ export default function HomePage() {
         <TrustBar />
         <VideoSection />
         <Products />
+        <Gallery />
         <WhyUs />
         <ServiceAreas />
         <Testimonials />
