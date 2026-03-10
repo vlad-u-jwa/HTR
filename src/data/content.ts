@@ -31,53 +31,55 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  // ── Windows (primary focus) ──────────────────────────────────────
   {
     name: 'Casement Windows',
     description:
       'The most popular choice for Alberta homes – classic design with superior energy efficiency for cold Prairie winters.',
-    image: '/images/casement-windows.jpg',
+    image: '/images/New-Windows-Alberta.png',
     category: 'window',
   },
   {
     name: 'Double Hung Windows',
     description:
       'Two sashes that slide up and down independently, making them easy to clean and ideal for any room.',
-    image: '/images/double-hung-windows.jpg',
+    image: '/images/New-Windows-Alberta-1.png',
     category: 'window',
   },
   {
     name: 'Awning Windows',
     description:
       'Hinged at the top and opening outward, awning windows provide ventilation even during Alberta rain.',
-    image: '/images/awning-windows.jpg',
+    image: '/images/New-Windows-Alberta-3.png',
     category: 'window',
   },
   {
     name: 'Bay & Bow Windows',
     description:
       'Create a stunning focal point in any room while flooding your interior with natural Alberta sunlight.',
-    image: '/images/bay-windows.jpg',
+    image: '/images/New-Windows-Alberta-4.png',
     category: 'window',
   },
+  // ── Doors (secondary) ───────────────────────────────────────────
   {
     name: 'Fiberglass Entry Doors',
     description:
       'Customisable, weather-resistant, and built to handle Calgary\'s extreme temperature swings without warping.',
-    image: '/images/fiberglass-doors.jpg',
+    image: '/images/New-Doors-Alberta.png',
     category: 'door',
   },
   {
     name: 'Steel Entry Doors',
     description:
       'Maximum security and durability in sophisticated designs – perfect for the demanding Alberta climate.',
-    image: '/images/steel-doors.jpg',
+    image: '/images/New-Doors-Alberta-1.png',
     category: 'door',
   },
   {
     name: 'Patio Doors',
     description:
       'Smooth-gliding patio doors that connect your home to Alberta\'s stunning outdoor spaces with style.',
-    image: '/images/patio-doors.jpg',
+    image: '/images/New-Doors-Alberta-2.png',
     category: 'door',
   },
 ]

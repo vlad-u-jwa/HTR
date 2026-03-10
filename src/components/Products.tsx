@@ -19,8 +19,8 @@ export default function Products() {
             Premium Windows & Doors for Alberta Homes
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-base">
-            Every product is Energy Star certified and engineered to withstand Calgary&apos;s extreme temperature
-            swings — from -40°C winters to blazing summer heat.
+            Windows are our specialty — every unit is triple-pane, Energy Star certified, and engineered to
+            handle Calgary&apos;s brutal winters. We also offer a selection of premium entry and patio doors.
           </p>
         </div>
 
@@ -31,13 +31,18 @@ export default function Products() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-8 py-2.5 rounded-lg text-sm font-semibold capitalize transition-all ${
+                className={`relative px-8 py-2.5 rounded-lg text-sm font-semibold capitalize transition-all ${
                   activeTab === tab
                     ? 'bg-blue-800 text-white shadow-sm'
                     : 'text-slate-600 hover:text-blue-800'
                 }`}
               >
                 {tab === 'window' ? '🪟 Windows' : '🚪 Doors'}
+                {tab === 'window' && (
+                  <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full leading-none">
+                    MAIN
+                  </span>
+                )}
               </button>
             ))}
           </div>

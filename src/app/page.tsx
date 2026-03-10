@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import TrustBar from '@/components/TrustBar'
+import VideoSection from '@/components/VideoSection'
 import Products from '@/components/Products'
 import WhyUs from '@/components/WhyUs'
 import ServiceAreas from '@/components/ServiceAreas'
@@ -17,6 +18,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <TrustBar />
+        <VideoSection />
         <Products />
         <WhyUs />
         <ServiceAreas />
