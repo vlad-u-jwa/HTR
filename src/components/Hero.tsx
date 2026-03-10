@@ -15,8 +15,15 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="max-w-2xl">
+
+          {/* 40% OFF ribbon */}
+          <div className="inline-flex items-center gap-2.5 bg-orange-500 text-white text-sm font-black px-4 py-2 rounded-full mb-5 shadow-lg shadow-orange-500/40">
+            <span className="text-base">🔥</span>
+            <span>LIMITED TIME — 40% OFF Your Window Replacement</span>
+          </div>
+
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-400/40 text-orange-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/80 text-xs font-semibold px-3 py-1.5 rounded-full mb-6 ml-2">
             <span>🏅</span>
             <span>Alberta's #1 Rated Window & Door Company</span>
           </div>
@@ -45,7 +52,7 @@ export default function Hero() {
               href="#contact"
               className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-colours shadow-lg shadow-orange-500/30 text-center"
             >
-              Get My Free Quote →
+              Claim 40% OFF — Free Quote →
             </a>
             <a
               href={`tel:${siteConfig.phone.replace(/\D/g, '')}`}
@@ -55,12 +62,16 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Discount badge */}
-          <div className="mt-8 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-3">
+          {/* Discount callout box */}
+          <div className="mt-8 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-orange-400/40 rounded-xl px-5 py-3">
             <span className="text-2xl">🎁</span>
             <div>
-              <p className="text-white font-bold text-sm">Claim Your Discount Today</p>
-              <p className="text-slate-300 text-xs">Limited-time offer for Calgary-area homeowners</p>
+              <p className="text-white font-bold text-sm">
+                Save 40% — Calgary Area Exclusive Offer
+              </p>
+              <p className="text-slate-300 text-xs">
+                Fill out the form below to lock in your discount before it expires
+              </p>
             </div>
           </div>
         </div>

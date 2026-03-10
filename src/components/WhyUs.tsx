@@ -1,4 +1,5 @@
 import { whyUsPoints } from '@/data/content'
+import Image from 'next/image'
 
 export default function WhyUs() {
   return (
@@ -34,8 +35,32 @@ export default function WhyUs() {
           ))}
         </div>
 
+        {/* Real installation photo */}
+        <div className="mt-14 rounded-2xl overflow-hidden relative h-64 sm:h-80 shadow-xl">
+          <Image
+            src="/images/DSC06325.png"
+            alt="HTR Windows professional installation in Alberta"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 to-transparent flex items-center px-8 md:px-12">
+            <div>
+              <p className="text-orange-400 font-bold text-sm uppercase tracking-widest mb-1">Real Installation</p>
+              <p className="text-white font-black text-xl sm:text-2xl max-w-xs leading-snug">
+                This is what we do in your Calgary home
+              </p>
+              <a
+                href="#contact"
+                className="mt-4 inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-6 py-2.5 rounded-lg transition-colours"
+              >
+                Claim 40% OFF →
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Process strip */}
-        <div className="mt-16 bg-blue-900 rounded-2xl p-8 md:p-10">
+        <div className="mt-10 bg-blue-900 rounded-2xl p-8 md:p-10">
           <h3 className="text-white font-black text-xl md:text-2xl text-center mb-8">
             How It Works — 3 Simple Steps
           </h3>

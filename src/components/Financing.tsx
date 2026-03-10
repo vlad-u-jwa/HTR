@@ -34,15 +34,15 @@ export default function Financing() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <span className="text-orange-500 font-semibold text-sm uppercase tracking-widest">
-            Flexible Financing
-          </span>
+          <div className="inline-flex items-center gap-2 bg-orange-100 border border-orange-300 text-orange-700 text-sm font-black px-4 py-2 rounded-full mb-4">
+            🔥 LIMITED TIME — 40% OFF + Flexible Financing
+          </div>
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">
-            New Windows & Doors — No Financial Stress
+            Save 40% &amp; Pay Over Time — No Financial Stress
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-base">
-            We believe every Alberta homeowner deserves energy-efficient, high-quality windows
-            regardless of budget. That&apos;s why we offer flexible payment plans tailored to you.
+            Stack your savings: claim <strong className="text-slate-700">40% off</strong> the installation price and combine it with
+            our 0% interest financing — get premium Alberta windows today, pay at your own pace.
           </p>
         </div>
 
@@ -71,17 +71,17 @@ export default function Financing() {
             Limited Time Offer
           </p>
           <h3 className="text-white text-2xl sm:text-3xl font-black mb-4">
-            Claim Your Discount + Free Financing Consultation
+            Claim Your <span className="text-orange-400">40% OFF</span> + Free Financing Consultation
           </h3>
           <p className="text-blue-200 text-base mb-8 max-w-xl mx-auto">
-            Fill out the form below and our Calgary financing specialist will contact you within
-            24 hours to find the best plan for your budget.
+            Fill out the form below and our Calgary specialist will contact you within 24 hours to
+            lock in your discount and find the best payment plan for your budget.
           </p>
           <a
             href="#contact"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-colours shadow-lg"
           >
-            Claim Discount & Get Financed →
+            Claim 40% OFF & Get Financed →
           </a>
           <p className="text-blue-400 text-xs mt-4">OAC. Fees and interest rates may apply on some plans.</p>
         </div>

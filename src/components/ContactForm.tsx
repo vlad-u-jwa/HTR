@@ -48,10 +48,11 @@ export default function ContactForm() {
             <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">
               Free Consultation
             </span>
-            <h2 className="text-3xl sm:text-4xl font-black mt-2 mb-6 leading-tight">
-              Get Your Free Quote &amp; Claim Your{' '}
-              <span className="text-orange-400">Calgary Discount</span>
-            </h2>
+          <h2 className="text-3xl sm:text-4xl font-black mt-2 mb-6 leading-tight">
+            Claim Your{' '}
+            <span className="text-orange-400">40% OFF</span>{' '}
+            &amp; Get a Free Quote
+          </h2>
             <p className="text-slate-300 text-base leading-relaxed mb-8">
               Fill out the form and a local HTR specialist will contact you within 24 hours to schedule
               your no-obligation, in-home assessment. No pressure, no spam — just honest pricing.
@@ -112,8 +113,14 @@ export default function ContactForm() {
               </div>
             ) : (
               <>
+                <div className="flex items-center gap-2 bg-orange-50 border border-orange-200 rounded-xl px-4 py-3 mb-5">
+                  <span className="text-xl">🔥</span>
+                  <p className="text-orange-700 font-black text-sm">
+                    LIMITED TIME: 40% OFF — Lock in your price today
+                  </p>
+                </div>
                 <h3 className="font-black text-xl text-slate-900 mb-6">
-                  Get a Free Quote &amp; Claim the Discount
+                  Get a Free Quote &amp; Claim 40% OFF
                 </h3>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {/* Name */}
