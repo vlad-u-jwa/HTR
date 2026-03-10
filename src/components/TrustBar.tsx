@@ -6,7 +6,7 @@ export default function TrustBar() {
       {/* 40% OFF announcement bar */}
       <div className="bg-orange-500 py-3 px-4 text-center mb-10">
         <p className="text-white font-black text-sm sm:text-base tracking-wide">
-          🔥 LIMITED TIME: <span className="underline underline-offset-2">40% OFF</span> Window Replacement for Calgary &amp; Alberta Homeowners —{' '}
+          🔥 LIMITED TIME: <span className="underline underline-offset-2">40% OFF</span> Window Replacement for Alberta Homeowners —{' '}
           <a href="#contact" className="underline hover:no-underline font-black">
             Claim Your Discount →
           </a>

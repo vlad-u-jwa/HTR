@@ -16,7 +16,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-slate-500 text-base">
-            Have questions about window and door replacement in Calgary? We&apos;ve got answers.
+            Have questions about window and door replacement in Alberta? We&apos;ve got answers.
           </p>
         </div>
 

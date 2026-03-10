@@ -11,7 +11,7 @@ export default function ServiceAreas() {
               Where We Work
             </span>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-5">
-              Serving Calgary & Surrounding Alberta Communities
+              Serving Alberta — Calgary & Surrounding Communities
             </h2>
             <p className="text-slate-500 text-base leading-relaxed mb-6">
               Our certified installation teams are based in Alberta and ready to serve your community.

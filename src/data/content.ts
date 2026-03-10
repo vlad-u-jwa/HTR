@@ -64,7 +64,7 @@ export const products: Product[] = [
   {
     name: 'Fiberglass Entry Doors',
     description:
-      'Customisable, weather-resistant, and built to handle Calgary\'s extreme temperature swings without warping.',
+      'Customisable, weather-resistant, and built to handle Alberta\'s extreme temperature swings without warping.',
     image: '/images/New-Doors-Alberta.png',
     category: 'door',
   },
@@ -95,7 +95,7 @@ export const whyUsPoints = [
     icon: '❄️',
     title: 'Built for Alberta Winters',
     description:
-      'Our triple-pane, Energy Star-certified products are engineered to withstand Calgary\'s harsh freeze-thaw cycles.',
+      'Our triple-pane, Energy Star-certified products are engineered to withstand Alberta\'s harsh freeze-thaw cycles.',
   },
   {
     icon: '✅',
@@ -119,7 +119,7 @@ export const whyUsPoints = [
     icon: '⭐',
     title: '4.9-Star Rated',
     description:
-      'Over 945 verified five-star reviews from homeowners across Ontario, BC, and now Calgary, Alberta.',
+      'Over 945 verified five-star reviews from homeowners across Ontario, BC, and now Alberta.',
   },
 ]
 

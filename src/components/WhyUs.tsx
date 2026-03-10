@@ -11,7 +11,7 @@ export default function WhyUs() {
             Why Choose HTR
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">
-            Calgary Homeowners Trust HTR
+            Alberta Homeowners Trust HTR
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-base">
             We&apos;ve been transforming Canadian homes for over 20 years. Here&apos;s what makes us
@@ -47,7 +47,7 @@ export default function WhyUs() {
             <div>
               <p className="text-orange-400 font-bold text-sm uppercase tracking-widest mb-1">Real Installation</p>
               <p className="text-white font-black text-xl sm:text-2xl max-w-xs leading-snug">
-                This is what we do in your Calgary home
+                This is what we do in your Alberta home
               </p>
               <a
                 href="#contact"
@@ -69,7 +69,7 @@ export default function WhyUs() {
               {
                 step: '01',
                 title: 'Free In-Home Quote',
-                desc: 'A local HTR specialist visits your Calgary home, assesses your windows and doors, and provides a detailed, no-obligation quote.',
+                desc: 'A local HTR specialist visits your Alberta home, assesses your windows and doors, and provides a detailed, no-obligation quote.',
               },
               {
                 step: '02',

@@ -20,7 +20,7 @@ export default function Products() {
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto text-base">
             Windows are our specialty — every unit is triple-pane, Energy Star certified, and engineered to
-            handle Calgary&apos;s brutal winters. We also offer a selection of premium entry and patio doors.
+            handle Alberta&apos;s brutal winters. We also offer a selection of premium entry and patio doors.
           </p>
         </div>
 

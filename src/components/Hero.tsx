@@ -30,14 +30,14 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
-            Calgary&apos;s Trusted{' '}
+            Alberta&apos;s Trusted{' '}
             <span className="text-orange-400">Window & Door</span>{' '}
             Replacement Experts
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-slate-300 mb-4 leading-relaxed">
-            Serving Calgary, Airdrie, Okotoks, Cochrane & surrounding Alberta communities.
+            Serving Calgary, Airdrie, Okotoks, Cochrane & communities across Alberta.
             Triple-pane, Energy Star certified windows built for Prairie winters.
           </p>
 
@@ -67,7 +67,7 @@ export default function Hero() {
             <span className="text-2xl">🎁</span>
             <div>
               <p className="text-white font-bold text-sm">
-                Save 40% — Calgary Area Exclusive Offer
+                Save 40% — Alberta Exclusive Offer
               </p>
               <p className="text-slate-300 text-xs">
                 Fill out the form below to lock in your discount before it expires

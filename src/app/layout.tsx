@@ -9,9 +9,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'HTR Windows & Doors – Calgary & Alberta Window Replacement',
+  title: 'HTR Windows & Doors – Alberta Window & Door Replacement',
   description:
-    'Calgary\'s #1 rated window and door replacement company. Serving Calgary, Airdrie, Okotoks, Cochrane & all of Alberta. Energy Star certified, 25-year warranty, 0% financing. Get a free quote today.',
+    'Alberta\'s #1 rated window and door replacement company. Serving Calgary, Airdrie, Okotoks, Cochrane & all of Alberta. Energy Star certified, 25-year warranty, 0% financing. Get a free quote today.',
   keywords: [
     'window replacement Calgary',
     'door replacement Calgary',
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     'HTR windows doors',
   ],
   openGraph: {
-    title: 'HTR Windows & Doors – Calgary Window & Door Replacement',
+    title: 'HTR Windows & Doors – Alberta Window & Door Replacement',
     description:
-      'Award-winning window and door replacement in Calgary & Alberta. 4.9 stars, 25-year warranty, 0% financing up to $40,000.',
+      'Award-winning window and door replacement across Alberta. 4.9 stars, 25-year warranty, 0% financing up to $40,000.',
     url: 'https://htrwindows.ca',
     siteName: 'HTR Windows & Doors',
     locale: 'en_CA',

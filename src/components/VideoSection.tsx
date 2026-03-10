@@ -30,7 +30,7 @@ export default function VideoSection() {
         {/* Below-video CTA */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
           <p className="text-slate-500 text-sm text-center">
-            Ready to experience this level of service at your Calgary home?
+            Ready to experience this level of service at your Alberta home?
           </p>
           <a
             href="#contact"
